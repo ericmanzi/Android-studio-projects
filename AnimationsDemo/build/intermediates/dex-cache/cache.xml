@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ericmanzi/AndroidStudioProjects/AnimationsDemo/app/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a0cf96dabecd7b65a3638a229e7bdb42e6b0a77">
+        <dex dex="/Users/ericmanzi/AndroidStudioProjects/AnimationsDemo/app/build/intermediates/pre-dexed/debug/android-support-v13-6c8daac88e4169ca5e9bf11f2d1856a2d78e369a.jar" />
+    </item>
+
+</items>

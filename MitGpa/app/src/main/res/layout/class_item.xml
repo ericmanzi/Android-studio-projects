@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:paddingTop="20dp" android:paddingBottom="20dp"
+    android:paddingLeft="10dp" android:paddingRight="10dp" android:background="#30ffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Course:"
+            android:textColor="#555555"
+            android:id="@+id/label1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="6.813"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:id="@+id/tvCourseName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Units:"
+            android:textColor="#555555"
+            android:id="@+id/label2" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="12"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:id="@+id/tvCourseUnits" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="60dp"
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Grade:"
+            android:textColor="#555555"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/label3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="50dp"
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tvCourseGrade" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="30dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Course name:  "
+            android:gravity="right"
+            android:id="@+id/tvCourseName" />
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 18.01"
+            android:singleLine="true"
+            android:id="@+id/etCourseName" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Units:  "
+            android:gravity="right"
+            android:id="@+id/tvUnits" />
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:singleLine="true"
+            android:hint="e.g. 3, 6..."
+            android:id="@+id/etUnits" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Grade:  "
+            android:gravity="right"
+            android:id="@+id/tvGrade" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/llGrade">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spGrade"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

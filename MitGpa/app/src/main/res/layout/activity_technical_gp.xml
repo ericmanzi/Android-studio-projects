@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#CCCCCC">
+    <LinearLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="GPA"
+            android:gravity="right"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:background="#632523"
+            android:textColor="#ffffff"
+            android:textSize="100sp"
+            android:id="@+id/tvGpa"
+            android:layout_gravity="center_horizontal" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:id="@+id/lvClasses"
+            />
+    </LinearLayout>
+
+</FrameLayout>
